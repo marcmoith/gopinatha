@@ -1,0 +1,65 @@
+/*!
+
+ =========================================================
+ * Light Bootstrap Dashboard - v1.4.0
+ =========================================================
+
+ * Product Page: http://www.creative-tim.com/product/light-bootstrap-dashboard
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE.md)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+/*      light colors         */
+.card .image img {
+    width: 100%;
+}
+
+
+.card .content {
+    padding: 15px 15px 10px 15px;
+}
+
+.card .header {
+    padding: 15px 15px 0;
+}
+
+
+.card .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card h6 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card.card-separator:after {
+    height: 100%;
+    right: -15px;
+    top: 0;
+    width: 1px;
+    background-color: #DDDDDD;
+    content: "";
+    position: absolute;
+}
+
+.card-user .avatar {
+    width: 124px;
+    height: 124px;
+    border: 5px solid #FFFFFF;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.card-user .avatar.border-gray {
+    border-color: #EEEEEE;
+}
+

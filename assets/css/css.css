@@ -1,0 +1,662 @@
+@charset "utf-8";
+/*
+*=======================================================================================*
+| Copyright © 2013 HigorSalesWEB . Todos direitos reservados.                           |
+| Coded by: Higor Sales | Facebook.com/higorsalesbr | skype: higorsales.web             |  
+| A copia total ou parcial deste site é totalmente proibida.                            |
+*=======================================================================================*
+*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:Tahoma;
+	font-size:12px;
+	background-position:top center;
+	background-repeat:no-repeat;
+}
+@font-face {
+  font-family: "BebasNeue";
+  src: url("../fonts/BebasNeue.eot") format("eot"),
+  url("../fonts/BebasNeue.woff") format("woff"),
+  url("../fonts/BebasNeue.ttf") format("truetype");
+  font-weight:normal;
+}
+/* BARRINHA */
+.box_dados{
+	width:990px;
+	height:37px;
+	margin:0px auto;
+	padding:10px;
+}
+.barra_dados{
+	background:#ddd6d6;
+	width:57px;
+	height:25px;
+}
+#noar{
+	font:Tahoma;
+	font-size:18px;
+	color:#000;
+	padding:2px;
+}
+.ar{
+	font-weight:bold;
+}
+.locprog{
+	font:Arial;
+	font-size:16px;
+	color:#ddd6d6;
+	margin-left:65px;
+	margin-top:-20px;
+}
+.tag_cima{
+	margin-left:900px;
+	margin-top:-30px;
+}
+.tag_cima ul{
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+}
+.tag_cima ul li{
+	display:block;
+	float:left;
+	margin:0 5px;
+	padding:5px 0;
+}
+/* LOGO */
+.logo{
+	width:990px;
+	height:auto;
+	margin:0 auto;
+	padding-top:30px;
+	padding-left:95px;
+}
+/*************************************************************************************************************/
+
+.conteudo{
+	background:#ecebeb;
+	width:970px;
+	height:auto;
+	margin:0 auto;
+	padding:10px 10px;
+	margin-top:35px;
+	
+}
+.dentro_conteudo{
+	width:970px;
+	height:auto;
+}
+.lado_esquerdo{
+	width:600px;
+	height:auto;
+	float:left;
+	padding-left:8px;
+	padding-top:10px;
+}
+.lado_direito{
+	width:350;
+	height:auto;
+	float:right;
+	padding-top:10px;
+}
+.clear{
+	clear:both;
+	overflow:hidden;
+	height:0;
+}
+/*************************************************************************************************/
+/* MENU	*/
+.box_menu{
+	position:relative;
+	width:990;
+	height:auto;
+	margin:0 auto;
+	padding-left:8px;
+	margin-top:-30px;
+	display:block;
+}
+.menu{
+	background:url(assets/images/menu.png) no-repeat;
+	width:562px;
+	height:40px;
+	font:400 17px Oswald;
+	color:#e2e2e2;
+	text-decoration:none;
+}
+.menu a {
+	color:#e2e2e2;
+}
+.menu ul{
+	width:559px;
+	height:36px;
+	display:block;
+	list-style:none;
+	margin:0;
+	padding:0; 
+	position:relative;
+}
+.menu ul li{
+	height:36px;
+	float:left;
+	display:block;
+	list-style:none;
+	margin:0;
+	padding:7px;
+}
+.menu ul li.left{
+	margin-left:12px;
+	margin-top:-7px;
+}
+/* NO AR */
+.box_noar{
+	width:419px;
+	height:171px;;
+	margin:0 auto;
+	position:relative;
+	margin-top:-60px;
+	float:right;
+	margin-right:-30px;
+
+}
+.noar_base{
+	background-image:url(assets/images/noar.png);
+	background-repeat:no-repeat;
+	width:419px;
+	height:170px;
+}
+#centralizar{
+	width:970px;
+	height:auto;
+	margin:0 auto;
+}
+.foto_loc{
+	padding:9px;
+}
+.locutor{
+	font-family: "BebasNeue";
+	font-size:24px;
+	color:#d2d2d2;
+	margin-left:90px;
+	margin-top:-92px;
+}
+.programacao{
+	font-family: "BebasNeue";
+	font-size:48px;
+	color:#49c1f0;
+	margin-left:90px;
+	margin-top:-11px;
+}
+.musica_toc{
+	font:Tahoma;
+	color:#ebebeb;
+	font-size:12px;
+	width:312px;
+	height:19px;
+	margin-top:-8px;
+	margin-left:95px;
+}
+.text_noar{
+	font:Tahoma;
+	color:#ebebeb;
+	font-size:11px;
+	margin-top:7px;
+	margin-left:70px;
+}
+.pedidos{
+	margin-top:-15px;
+	margin-left:315px;
+	
+}
+.icones_redes{
+	margin-top:8px;
+	margin-left:230px;
+}
+/* SLIDE */
+.slide{
+	padding-top:20px;
+	padding-left:5px;
+}
+/* PARCERIA BAIXO NOAR */
+.box_parceria{
+	width:488px;
+	height:142px;
+	float:right;
+	display:block;
+	overflow:hidden;
+	margin-top:-132px;
+}
+.box_anuncio{
+	width:247px;
+	height:47px;
+	float:right;
+	display:block;
+	overflow:hidden;
+	margin-top:-120px;
+}
+.sejaparceiro{
+	font:Tahoma;
+	font-size:14px;
+	color:#000;
+}
+#cliqueaqui a{
+	font-weight:bold;
+	color:#000;
+}
+.anuncie{
+	background:url(assets/images/parceria_top.png);
+	background-repeat:no-repeat;
+	width:474;
+	height:135px;
+}
+.pub_1{
+	width:464px;
+	height:68px;
+	padding-left:5px;
+	padding-top:62px;
+}
+/*************************************************************************************************/
+.barra_titulo{
+	background:url(assets/images/barra%20noticias.png) no-repeat;
+	width:604px;
+	height:42px;
+}
+.titulo_pagina{
+	font-family: "BebasNeue";
+	font-size:24px;
+	color:#eaeaea;
+	padding:8px;
+}
+#vermais{
+	color:#0a8761;
+	margin-left:350px;
+}
+#vermais a{
+	color:#0a8761;
+}
+.basenot{
+	background:url(../imagens/base_noticia.png) no-repeat;
+	width:92px;
+	height:61px;
+	margin-top:7px;
+}
+.imgnot{
+	margin-top:-54px;
+	margin-left:6px;
+}
+.titulonot{
+	font-family: "BebasNeue";
+	font-size:24px;
+	color:#882300;
+	margin-top:-68px;
+	margin-left:105px;
+}
+.descricaonot{
+	font:Tahoma;
+	width:400px;
+	height:20px;
+	font-size:12px;
+	color:#262626;
+	margin-left:105px;
+}
+.not1{
+	margin-bottom:25px;
+}
+.titulonot a {
+	color:#882300;
+}
+.pub_master{
+	margin-top:26px;
+}
+/* ARTISTA SEMANA */
+.titulo_artista{
+	background:url(../imagens/artista_nome.png) no-repeat;
+	width:208px;
+	height:29px;
+	margin-left:30px;
+}
+.base_barra{
+	background:url(../imagens/barra_artista.png) no-repeat;
+	width:211px;
+	height:38px;
+	font:400 17px Oswald;
+	color:#ebeae9;
+	padding:7px;
+	margin-left:30px;
+	z-index:3;
+	position:absolute;
+}
+.base_artista{
+	background:url(../imagens/base_artista.png) no-repeat;
+	width:163px;
+	height:187px;
+	margin-top:13px;
+	z-index:1;
+	position:absolute;
+}
+.foto_artista{
+	z-index:2;
+	position:absolute;
+	margin-left:6px;
+	margin-top:20px;
+}
+.nome_destaque{
+	font:400 14px Oswald;
+	color:#000;
+	margin-top:200px;
+}
+.musica_destaque{
+	font:700 24px Oswald;
+	color:#000;
+}
+.divi_meio{
+	background:url(../imagens/divi_meio.png) no-repeat;
+	width:402px;
+	height:299px;
+	margin-left:200px;
+	margin-top:-270px;
+}
+/* VIDEO */
+.base_video{
+	background:url(../imagens/base_video.png) no-repeat;
+	width:261px;
+	height:186px;
+	margin-left:340px;
+	margin-top:-290px;
+	z-index:2;
+	position:absolute;
+}
+.barra_video{
+	background:url(../imagens/barra_video.png) no-repeat;
+	width:211px;
+	height:38px;
+	margin-left:245px;
+	margin-top:-120px;
+	z-index:1;
+	position:absolute;
+}
+.video{
+	margin-top:-286px;
+	margin-left:346px;
+	z-index:3;
+	position:absolute;
+}
+/* TWITTER */
+.barra_twitter{
+	background:url(../imagens/barra_twitter.png) no-repeat;
+	width:255px;
+	height:41px;
+}
+.twitter{
+	width:253px;
+	height:300px;
+}
+.djdomes{
+	font:700 30px Oswald;
+	color:#8e2c2d;
+	margin-left:450px;
+	margin-top:-407px;
+}
+.base_img{
+	background:url(../imagens/base_loc_destaque.png) no-repeat;
+	width:102px;
+	height:139px;
+	margin-left:269px;
+	margin-top:24px;
+}
+.locutor_destaque_img{
+	margin-left:278px;
+	margin-top:-149px;
+}
+.nome_loc_destaque{
+	font:400 18px Oswald;
+	color:#89ae18;
+	margin-left:400px;
+	margin-top:-130px;
+}
+.dados_loc_destaque{
+	font:Tahoma;
+	font-size:12px;
+	color:#000;
+	margin-left:400px;
+	margin-top:7px;
+}
+#genero{
+	font-weight:bold;
+}
+#horario{
+	font-weight:bold;
+}
+#programa_loc{
+	font-weight:bold;
+}
+.promocoes{
+	font-family: "BebasNeue";
+	font-size:30px;
+	color:#b50caf;
+	margin-left:270px;
+	margin-top:28px;
+}
+.imagem_promo{
+	margin-left:270px;
+}
+.descric_promo{
+	font-family: "BebasNeue";
+	font-size:24px;
+	color:#65bdd5;
+	width:325px;
+	margin-left:270px;
+}
+.descric_promo a {
+	color:#65bdd5;
+}
+/*************************************************************************************************/
+/* EQUIPE */
+.equipe_dados{padding:14px;
+float:left;
+}
+.base_img_equipe{
+	background:url(../imagens/base_equipe.png) no-repeat;
+	width:132px;
+	height:151px;
+	margin-top:20px;
+}
+.imagem_equipe{
+	margin-left:9px;
+	margin-top:-141px;
+}
+.nome_equipe{
+	font-family: "BebasNeue";
+	font-size:24px;
+	color:#000;
+	width:170px;
+	margin-left:-5px;
+	text-align:center;
+}
+.nome_programa{
+	font-family: "BebasNeue";
+	font-size:18px;
+	color:#000;
+	width:170px;
+	text-align:center;
+}
+.barra_div{
+	background:url(../imagens/div_equipe.png) no-repeat;
+	width:123px;
+	height:4px;
+	margin-left:22px;
+	margin-top:-4px;
+}
+
+.facebook_box{
+	margin-top:-10px;
+}
+.barra_top{
+	background:url(../imagens/barra_topfive.png);
+	width:341px;
+	height:42px;
+	margin-top:-10px;
+}
+.topfivtitu{
+	font-family: "BebasNeue";
+	font-size:25px;
+	color:#89ae18;
+	padding:8px;
+}
+.barra1{
+	background:#65bdd5;
+	width:68px;
+	height:60px;
+	margin-top:7px;
+}
+.numerotop{
+	font-family: Arial;
+	font-size:28px;
+	color:#e6e6e6;
+	font-weight: bold;
+	padding:15px;
+}
+
+.imagemtop{
+	margin-top:-60px;
+	margin-left:73px;
+}
+.nome_musica{
+	font:400 17px Oswald;
+	color:#000;
+	margin-top:-60px;
+	margin-left:155px;
+}
+.nome_artista{
+	font:300 13px Oswald;
+	color:#000;
+	margin-left:795px;
+	margin-left:155px;
+}
+.barra2{
+	background:#0e924c;
+	width:68px;
+	height:60px;
+	margin-top:23px;
+}
+.barra3{
+	background:#FB7013;
+	width:68px;
+	height:60px;
+	margin-top:23px;
+}
+.barra4{
+	background:#a2260e;
+	width:68px;
+	height:60px;
+	margin-top:23px;
+}
+.barra5{
+	background:#89ae18;
+	width:68px;
+	height:60px;
+	margin-top:23px;
+}
+.barra_parcerias{
+	background:url(../imagens/barra_parcerias.png) no-repeat;
+	width:341px;
+	height:42px;
+	margin-top:30px;
+}
+.icone_parcerias{
+	background:url(../imagens/icons/parceriasicon.png) no-repeat;
+	width:36px;
+	height:25px;
+	margin-top:-32px;
+	margin-left:9px;
+}
+.nometitulo{
+	font-family: "BebasNeue";
+	font-size:25px;
+	color:#e4b328;
+	margin-top:-24px;
+	margin-left:40px;
+}
+.imgparc{
+	margin-top:15px;
+}
+.imgparcc{
+	margin-top:10px;
+}
+.imgparccc{
+	margin-top:10px;
+}
+
+.imgparcccc{
+	margin-top:10px;
+}
+/*************************************************************************************************/
+/* RODAPÉ */
+.rodape{
+	background:#48041f;
+	width:100%;
+	height:100px;
+}
+.centro_rodape{
+	width:990px;
+	height:auto;
+	margin:0 auto;
+}
+#footer-links {
+	width:650px;
+	height:40;
+	list-style:none;
+	float:left;
+	padding-left:200px;
+	padding-top:15px;
+}
+#footer-links a {
+	font:400 15px Oswald;
+	color:#CCC;
+	list-style:none;
+	text-decoration:none;
+}
+#footer-links a:hover {
+	Color: #b72f2f;	
+}
+#footer-links h2 {
+	list-style:none;
+	display:none;
+}
+#footer-links ul , footer-links li {
+	list-style:none;
+}
+.footer-links-links {
+	width:970px;
+	margin:0 auto
+}
+#footer-links ul a{
+	float:left;
+	border-right:dotted 1px #444;
+	padding: 0 20px;
+	margin:2px
+}
+#acessorapido select {
+	width:200px !important;
+	border:none;
+	float:right;
+	background:#ccc;
+	color:#005984;
+	padding:3px;
+}
+.logo_marca{
+	display:block;
+	float:right;
+	margin-right:30px;
+	padding-top:60px;
+}
+.container{
+	float:left;
+	font:300 14px Oswald;
+	color:#515151;
+	padding-top:20px;
+	padding-left:280px;
+}
